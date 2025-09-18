@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IronPulse — Academia & Treinos</title>
+  <meta name="description" content="Template de landing page para academia: planos, horários, modalidades e contato via WhatsApp. Responsivo, com animações, parallax e microinterações." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="IronPulse — Academia & Treinos" />
+  <meta property="og:description" content="Planos flexíveis, aulas de Muay Thai, Jiu-Jitsu, Pilates, Dança, Zumba e mais. Agende seu treino agora!" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+<section id="intro" class="intro-screen">
+  <div class="intro-content">
+    <h1>Bem-vindo à <span>IronPulse</span></h1>
+    <a href="#" class="btn primary start-btn">Quero conhecer</a>
+  </div>
+</section>
+
+  <header class="site-header" aria-label="Topo do site">
+    <a href="#hero" class="brand" aria-label="Voltar ao topo">Iron<span>Pulse</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">☰</button>
+    <nav id="main-nav" class="nav" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#planos">Planos</a>
+      <a href="#modalidades">Modalidades</a>
+      <a href="#horarios">Horários</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato" class="btn small">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Floating dumbbells / plates (decorative parallax elements) -->
+  <div class="floaters" aria-hidden="true">
+  <img src="assets/anilha.png" alt="Anilha decorativa" class="floater f1">
+  <img src="assets/halter.png" alt="Halter decorativo" class="floater f2">
+  <img src="assets/anilha.png" alt="Anilha decorativa" class="floater f3">
+  <img src="assets/halter.png" alt="Halter decorativo extra" class="floater f4">
+</div>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="hero__bg" data-parallax></div>
+      <div class="shell">
+        <div class="hero__content centered">
+          <h1 class="reveal">Sua melhor versão começa <span class="accent">hoje</span>.</h1>
+          <p class="reveal delay-1 hero-lead">Treinos inteligentes, ambiente motivador e modalidades que aceleram resultados. Venha sentir o ritmo da <strong>IronPulse</strong>.</p>
+          <div class="cta reveal delay-2">
+            <a class="btn highlight" id="startBtn" href="#sobre">👉 Quero conhecer</a>
+            <a class="btn primary" href="https://wa.me/5599999999999?text=Quero%20agendar%20uma%20aula%20experimental" target="_blank" rel="noopener">Agendar aula</a>
+            <a class="btn ghost" href="#planos">Ver planos</a>
+          </div>
+            
+          <ul class="badges reveal delay-3" aria-label="Destaques">
+            <li>Aceita Gympass</li>
+            <li>Equipamentos premium</li>
+            <li>05h–23h</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="shell grid-2">
+        <div class="media reveal">
+          <img src="assets/gym-01.jpg" alt="Área de musculação com halteres e anilhas" loading="lazy" />
+        </div>
+        <div class="content reveal delay-1">
+          <h2>Sobre a academia</h2>
+          <p>Somos uma academia completa, focada em performance, saúde e bem-estar. Nossa estrutura une tecnologia, metodologia de treino baseada em evidências e profissionais qualificados para te acompanhar do primeiro ao último set.</p>
+          <ul class="list">
+            <li>Planos flexíveis (mensal, trimestral, semestral e anual).</li>
+            <li>Assessoria esportiva e avaliações periódicas.</li>
+            <li>Ambiente climatizado e vestiários equipados.</li>
+          </ul>
+          <div class="flag">Aceitamos <strong>Gympass</strong> ✅</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="planos" class="section alt">
+      <div class="shell">
+        <h2 class="reveal">Planos & Valores</h2>
+        <p class="muted reveal delay-1">Transparência total. Sem letrinhas miúdas.</p>
+
+        <div class="cards">
+          <article class="card reveal">
+            <h3>Start</h3>
+            <div class="price"><span>R$</span>89<span>/mês</span></div>
+            <ul>
+              <li>Acesso em horário comercial</li>
+              <li>Avaliação física inicial</li>
+              <li>Treino base personalizado</li>
+            </ul>
+            <a href="#contato" class="btn primary small">Começar</a>
+          </article>
+
+          <article class="card highlight reveal delay-1">
+            <div class="badge">Mais escolhido</div>
+            <h3>Pro</h3>
+            <div class="price"><span>R$</span>139<span>/mês</span></div>
+            <ul>
+              <li>Acesso total (05h–23h)</li>
+              <li>2 aulas coletivas / semana</li>
+              <li>Acompanhamento mensal</li>
+            </ul>
+            <a href="#contato" class="btn primary small">Assinar</a>
+          </article>
+
+          <article class="card reveal delay-2">
+            <h3>Elite</h3>
+            <div class="price"><span>R$</span>219<span>/mês</span></div>
+            <ul>
+              <li>Acesso 24/7 (biometria)</li>
+              <li>Personal 1x/semana</li>
+              <li>Aulas coletivas ilimitadas</li>
+            </ul>
+            <a href="#contato" class="btn primary small">Quero Elite</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="modalidades" class="section">
+      <div class="shell">
+        <h2 class="reveal">Modalidades</h2>
+        <div class="pill-grid reveal delay-1" role="list">
+          <span role="listitem" class="pill">Muay Thai</span>
+          <span role="listitem" class="pill">Jiu-Jitsu</span>
+          <span role="listitem" class="pill">Pilates</span>
+          <span role="listitem" class="pill">Ginástica</span>
+          <span role="listitem" class="pill">Dança</span>
+          <span role="listitem" class="pill">Zumba</span>
+          <span role="listitem" class="pill">Funcional</span>
+          <span role="listitem" class="pill">HIIT</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="horarios" class="section alt">
+      <div class="shell">
+        <h2 class="reveal">Disponibilidade de horários</h2>
+        <p class="muted reveal delay-1">Agende aulas e treinos nos melhores horários pra você.</p>
+        <div class="schedule reveal delay-2" role="table" aria-label="Quadro de horários">
+          <div class="schedule__row schedule__head" role="row">
+            <div role="columnheader">Modalidade</div>
+            <div role="columnheader">Seg</div>
+            <div role="columnheader">Ter</div>
+            <div role="columnheader">Qua</div>
+            <div role="columnheader">Qui</div>
+            <div role="columnheader">Sex</div>
+          </div>
+          <div class="schedule__row" role="row">
+            <div role="cell">Muay Thai</div>
+            <div role="cell">06:00 - 19:00</div>
+            <div role="cell">—</div>
+            <div role="cell">06:00 - 19:00</div>
+            <div role="cell">—</div>
+            <div role="cell">18:30</div>
+          </div>
+          <div class="schedule__row" role="row">
+            <div role="cell">Jiu-Jitsu</div>
+            <div role="cell">07:00</div>
+            <div role="cell">19:30</div>
+            <div role="cell">—</div>
+            <div role="cell">07:00</div>
+            <div role="cell">19:30</div>
+          </div>
+          <div class="schedule__row" role="row">
+            <div role="cell">Pilates</div>
+            <div role="cell">08:00</div>
+            <div role="cell">—</div>
+            <div role="cell">08:00</div>
+            <div role="cell">—</div>
+            <div role="cell">08:00</div>
+          </div>
+          <div class="schedule__row" role="row">
+            <div role="cell">Zumba</div>
+            <div role="cell">—</div>
+            <div role="cell">18:00</div>
+            <div role="cell">—</div>
+            <div role="cell">18:00</div>
+            <div role="cell">—</div>
+          </div>
+        </div>
+        <div class="muted tiny reveal">* Horários e turmas sujeitos a alteração.</div>
+      </div>
+    </section>
+
+    
+    <section id="galeria" class="section">
+      <div class="shell">
+        <h2 class="reveal">Galeria</h2>
+        <div class="carousel reveal delay-1" aria-roledescription="carousel">
+          <button class="carousel__btn prev" aria-label="Imagem anterior">‹</button>
+          <div class="carousel__track" tabindex="0">
+            <img src="assets/gym-02.jpg" alt="Área de cardio com esteiras" />
+            <img src="assets/gym-03.jpg" alt="Espaço para aulas coletivas" />
+            <img src="assets/gym-04.jpg" alt="Halteres organizados" />
+            <img src="assets/gym-05.jpg" alt="Anilhas e barra olímpica" />
+            <img src="assets/gym-06.jpg" alt="Ambiente amplo e iluminado" />
+          </div>
+          <button class="carousel__btn next" aria-label="Próxima imagem">›</button>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="contato" class="section alt">
+      <div class="shell grid-2">
+        <div class="content reveal">
+          <h2>Fale com a gente</h2>
+          <p>Tem dúvidas sobre planos, aulas ou avaliação física? Chama no WhatsApp ou envia um e-mail. Estamos prontos para te ajudar!</p>
+          <div class="contact-actions">
+            <a class="btn primary" href="https://wa.me/5599999999999?text=Quero%20saber%20mais%20sobre%20os%20planos" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn ghost" href="mailto:contato@ironpulse.acad?subject=Informações%20sobre%20planos">Enviar e-mail</a>
+          </div>
+          <div class="contact-meta">
+            <p><strong>Endereço:</strong> Av. Exemplo, 123 — Centro</p>
+            <p><strong>Horário:</strong> 05h às 23h (Seg–Sex) | 08h às 16h (Sáb)</p>
+          </div>
+        </div>
+        <form class="form reveal delay-1" onsubmit="event.preventDefault(); alert('Mensagem enviada! Em breve retornaremos.'); this.reset();">
+          <label>Nome <input type="text" required placeholder="Seu nome" /></label>
+          <label>E-mail <input type="email" required placeholder="voce@exemplo.com" /></label>
+          <label>Assunto
+            <select required>
+              <option value="">Selecione</option>
+              <option>Aula experimental</option>
+              <option>Planos e valores</option>
+              <option>Outros</option>
+            </select>
+          </label>
+          <label>Mensagem <textarea required placeholder="Como podemos ajudar?"></textarea></label>
+          <button class="btn primary" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <p>© <span id="year"></span> IronPulse — Template de Landing Page. Feito para você duplicar, remixar e escalar.</p>
+      <nav class="footer-nav" aria-label="Links do rodapé">
+        <a href="#sobre">Sobre</a>
+        <a href="#planos">Planos</a>
+        <a href="#modalidades">Modalidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -12,3 +12,5 @@ Template 100% estático (HTML, CSS e JS) pensado para escalar várias landings d
 - 🖼️ Galeria estilo **masonry** com imagens de exemplo (substitua pelas suas).
 
 
+
+Link do site: https://pedrobuenodev.github.io/landingpageacademia/

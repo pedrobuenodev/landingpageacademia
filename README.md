@@ -13,4 +13,4 @@ Template 100% estático (HTML, CSS e JS) pensado para escalar várias landings d
 
 
 
-Link do site: https://pedrobuenodev.github.io/landingpageacademia/
+Link do site: https://splendorous-wisp-88dff4.netlify.app
